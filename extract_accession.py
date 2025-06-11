@@ -1,7 +1,7 @@
 from Bio import Entrez, SeqIO
 
-Entrez.email = "crosespol@gmail.com"
-Entrez.api_key = "f7fcf9aae146a74533d772d542ab8194fd08"
+Entrez.email = "EMAIL@ADRESS"
+Entrez.api_key = "API_KEY"
 import time
 
 def get_protein_id(genome_id, cds_end):
